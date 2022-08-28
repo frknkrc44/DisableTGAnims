@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2020-2021 Furkan Karcıoğlu <https://gitlab.com/frknkrc44>
+
+    This file is part of DisableTGAnims project,
+    and licensed under GNU Affero General Public License v3.
+    See the GNU Affero General Public License for more details.
+
+    All rights reserved. See COPYING, AUTHORS.
+-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.blinksd.fucktganims">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        tools:ignore="AllowBackup">
+
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+
+        <meta-data
+            android:name="xposeddescription"
+            android:value="@string/xposed_desc" />
+
+        <meta-data
+            android:name="xposedminversion"
+            android:value="53" />
+
+    </application>
+
+</manifest>

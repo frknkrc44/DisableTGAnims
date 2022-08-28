@@ -1,0 +1,14 @@
+<!--
+    Copyright (C) 2020-2021 Furkan Karcıoğlu <https://gitlab.com/frknkrc44>
+
+    This file is part of DisableTGAnims project,
+    and licensed under GNU Affero General Public License v3.
+    See the GNU Affero General Public License for more details.
+
+    All rights reserved. See COPYING, AUTHORS.
+-->
+
+<resources>
+    <string name="app_name">FuckTGAnims</string>
+    <string name="xposed_desc">Disable Telegram RLottie Animations</string>
+</resources>
